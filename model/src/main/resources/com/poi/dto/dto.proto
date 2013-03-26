@@ -1,0 +1,24 @@
+package poi;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.poi.dto";
+option java_outer_classname = "Model";
+
+message PoiDTO {
+	optional int64 id = 1;
+	required double latitude = 2;
+	required double longitude = 3;
+	optional string titulo = 4;
+	optional string descricao = 5;
+	optional string detalhes = 6;
+	optional string url_imagem = 7;
+}
+
+message ProximityRequest {
+	required double latitude = 1;
+	required double longitude = 2;
+}
+
+message ProximityResponse {
+	repeated PoiDTO poiDTO = 1;
+}

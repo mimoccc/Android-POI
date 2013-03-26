@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="customTheme" parent="android:Theme.Light">
+		<item name="android:windowTitleSize">60dip</item>
+		<item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+	</style>
+    <style name="WindowTitleBackground" parent="android:WindowTitleBackground">    
+        <item name="android:background">@android:color/transparent</item>        
+    </style>
+    <style name="customButton" parent="android:attr/windowTitleStyle">    
+        <item name="android:height">50dip</item>
+        <item name="android:background">@drawable/btn_custom</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22dip</item>
+    </style>
+</resources>

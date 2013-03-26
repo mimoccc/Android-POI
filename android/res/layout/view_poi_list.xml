@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:droidfu="http://github.com/droidfu/schema"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center">
+
+	<!-- com.github.droidfu.widgets.WebImageView
+		android:id="@+id/webimage"
+		android:layout_width="75dip"
+		android:layout_height="75dip"
+		android:background="#CCC"
+		droidfu:autoLoad="true"
+		droidfu:imageUrl="http://www.soubh.com.br/plus/plusimage/agenda/age_dimensao_foto_pequena/5_musica.jpg"
+		droidfu:progressDrawable="..." / -->
+	<Gallery
+		android:id="@+id/destaques"
+		android:layout_width="match_parent"
+		android:layout_height="100dip" />
+	<ListView
+		android:id="@+id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView
+		android:id="@+id/android:empty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Sem POIs" />
+		
+</LinearLayout>

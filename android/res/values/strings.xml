@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Poi Android</string>
+    <string name="app_description">Blablabla</string>
+    <string name="menuAtualizarTickets">Atualizar lista</string>
+    <string name="btnBares">Bar</string>
+    <string name="btnBoates">Boate</string>
+    <string name="btnShows">Show</string>
+    <string name="btnRestaurantes">Restaurante</string>
+    <string name="txtInformation1">O que você procura?</string>
+    <string name="txtInformation2">Escolha uma opção abaixo!</string>
+</resources>
